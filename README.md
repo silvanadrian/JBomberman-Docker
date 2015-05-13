@@ -1,5 +1,5 @@
 # JBomberman-Docker
-Dockerfile for the Bomberman Clone to start the Server and a RabbitMQ Broker.
+Dockerfile for the Bomberman Clone to start the JBombermanServer and a RabbitMQ Broker.
 
 
 #Build:
@@ -7,6 +7,7 @@ Dockerfile for the Bomberman Clone to start the Server and a RabbitMQ Broker.
 	
 	
 #Run:
+
 	docker run -d -p 5672:5672 -p 15672:15672 jbomb
 
 
