@@ -20,5 +20,5 @@ RUN apt-get install -y curl && \
 ENV JAVA_HOME /usr/lib/jvm/java-8-oracle
 EXPOSE 5672 15672
 
-RUN curl -O http://se2p.zonk.io/dist/JBombermanServer.jar
+RUN curl -O https://github.com/silvanadrian/JBomberman/releases/download/v1.0/JBombermanServer.jar
 CMD service rabbitmq-server start && java -jar JBombermanServer.jar
