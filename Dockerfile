@@ -4,7 +4,7 @@ MAINTAINER Silvan Adrian "hallo@silvanadrian.ch"
 ENV DEBIAN_FRONTEND noninteractive
 
 RUN apt-get install -y wget && \
-    curl -O https://www.rabbitmq.com/rabbitmq-signing-key-public.asc && \
+    wget https://www.rabbitmq.com/rabbitmq-signing-key-public.asc && \
     apt-key add rabbitmq-signing-key-public.asc && \
     echo "deb http://www.rabbitmq.com/debian/ testing main" > /etc/apt/sources.list.d/rabbitmq.list && \
     echo "deb http://ppa.launchpad.net/webupd8team/java/ubuntu trusty main" | tee /etc/apt/sources.list.d/webupd8team-java.list && \
