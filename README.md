@@ -1,4 +1,4 @@
-# JBomberman-Docker
+# JBomb-Docker
 Dockerfile for the Bomberman Clone to start the JBombermanServer and a RabbitMQ Broker.
 
 
