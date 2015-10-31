@@ -13,5 +13,4 @@ Dockerfile for the Bomberman Clone to start the JBombermanServer and a RabbitMQ 
 
 #To Dos:
 * Use a Proxy to switch between diffrent Servers (diffrent subdomains) -> or even randomize this and just assign players to a Server
-* Nicer options for wget the key of the Signing Key and the Jar File of JBomberman
 
