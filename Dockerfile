@@ -23,4 +23,4 @@ EXPOSE 5672 15672
 
 
 RUN wget $(curl -s https://api.github.com/repos/silvanadrian/jbomberman/releases | grep browser_download_url | grep 'Server[.]jar' | head -n 1 | cut -d '"' -f 4)
-CMD service rabbitmq-server start && java -jar JBombermanServer.jar
+CMD service rabbitmq-server start && java -jar *Server.jar
